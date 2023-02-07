@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+			integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="/JAVASCRIPT/EJERCICIOS/EJERCICIOS DOM MIRCHA/style.css"
+		/>
+
+		<title>EJERCICIOS DOM</title>
+	</head>
+	<body>
+		<h1>Ejercicios del DOM</h1>
+		<aside class="esco">
+			<a href="#sec1">Reloj Digital y Alarma Sonora</a>
+			<a href="#sec2">Evento del teclado</a>
+			<a href="#sec3">Countdown</a>
+			<a href="#sec4">Responsive con JavaScript</a>
+			<a href="#sec5">Responsive Tester</a>
+			<a href="#sec6">Detección de dispositivos</a>
+			<a href="#sec7">Detección de la Conexión</a>
+			<a href="#sec8">Detección de la Cámara WEB</a>
+			<a href="#sec9">Geolocalización</a>
+			<a href="#sec10">Filtro de Búsquedas</a>
+		</aside>
+		<button
+			class="boto hamburger hamburger--spin"
+			type="button"
+		>
+			<span class="boto hamburger-box">
+				<span class="boto hamburger-inner"></span>
+			</span>
+		</button>
+		<div
+			class="sec1"
+			id="sec1"
+		>
+			<h3 data-dark>Reloj Digital y Alarma Sonora</h3>
+			<article class="data"></article>
+			<button class="relo">Iniciar Reloj</button>
+			<button class="detereloj">Detener Reloj</button>
+			<button class="alarm">Iniciar Alarma</button>
+			<button class="detealarm">Detener Alarma</button>
+		</div>
+		<div
+			class="sec2"
+			id="sec2"
+		>
+			<h3 data-dark>Evento del teclado</h3>
+			<div
+				class="teclad"
+				data-dark
+			>
+				<div class="circle"></div>
+			</div>
+		</div>
+		<div
+			class="sec3"
+			id="sec3"
+		>
+			<h3 data-dark>Countdown</h3>
+			<p class="fecha"></p>
+		</div>
+		<div
+			class="sec4"
+			id="sec4"
+		>
+			<h3 data-dark>Responsive con JavaScript</h3>
+		</div>
+		<div
+			class="sec5"
+			id="sec5"
+		>
+			<h3
+				data-dark
+				class="prue"
+			>
+				Responsive Tester
+			</h3>
+			<form
+				action="get"
+				class="formulario"
+				target="_parent"
+			>
+				<input
+					type="url"
+					name="pag"
+					id="pag"
+					class="vert"
+					placeholder="URL"
+				/>
+				<input
+					type="text"
+					name="ancho"
+					id="ancho"
+					class="vert"
+					placeholder="Ancho"
+				/>
+				<input
+					type="text"
+					name="alto"
+					id="alto"
+					class="vert"
+					placeholder="Alto"
+				/>
+				<input
+					class="bt1"
+					type="submit"
+					value="Probar"
+					data-bo="bt3"
+				/>
+				<input
+					type="button"
+					value="Cerrar"
+					class="bt2"
+					data-bo="bt4"
+				/>
+			</form>
+		</div>
+		<div
+			class="sec6"
+			id="sec6"
+		>
+			<h3 data-dark>Detección de Dispositivos <br />UserAgent</h3>
+			<div class="usera"><ol class="listica"></ol></div>
+		</div>
+		<div
+			class="sec7"
+			id="sec7"
+		>
+			<h3 data-dark>Detección de la Conexión</h3>
+			<div class="conex"></div>
+		</div>
+
+		<div
+			class="sec8"
+			id="sec8"
+		>
+			<h3 data-dark>Detección de la Cámara WEB</h3>
+			<video
+				class="vide"
+				controls
+			></video>
+		</div>
+
+		<div
+			class="sec9"
+			id="sec9"
+		>
+			<h3 data-dark>GEOLOCALIZACIÓN</h3>
+			<div class="ubica"></div>
+		</div>
+
+		<div
+			class="sec10"
+			id="sec10"
+		>
+			<h3
+				class="cs"
+				data-dark
+			>
+				Filtro de Búsquedas
+			</h3>
+			<form
+				action=""
+				id="busq"
+				class="busq"
+			>
+				<input
+					type="search"
+					name="bus"
+					id="bus"
+					placeholder="Buscar..."
+				/>
+			</form>
+			<div class="targes">
+				<div class="car">
+					<img
+						class="im"
+						src="https://placeimg.com/300/260/nature"
+						alt="imagn"
+					/>
+					<p class="p2">nature</p>
+				</div>
+
+				<div class="car">
+					<img
+						class="im"
+						src="https://placeimg.com/300/280/any"
+						alt="imagn"
+					/>
+					<p class="p2">any</p>
+				</div>
+
+				<div class="car">
+					<img
+						class="im"
+						src="https://placeimg.com/300/280/tech"
+						alt="imagn"
+					/>
+					<p class="p2">tech</p>
+				</div>
+
+				<div class="car">
+					<img
+						class="im"
+						src="https://placeimg.com/300/280/animals"
+						alt="imagn"
+					/>
+					<p class="p2">animals</p>
+				</div>
+
+				<div class="car">
+					<img
+						class="im"
+						src="https://placeimg.com/300/280/people"
+						alt="imagn"
+					/>
+					<p class="p2">people</p>
+				</div>
+
+				<div class="car">
+					<img
+						class="im"
+						src="https://placeimg.com/300/280/arch"
+						alt="imagn"
+					/>
+					<p class="p2">arch</p>
+				</div>
+				<div class="car">
+					<img
+						class="im"
+						src="https://placeimg.com/300/280/animals"
+						alt="imagn"
+					/>
+					<p class="p2">animals</p>
+				</div>
+			</div>
+		</div>
+
+		<span class="esco">
+			<a
+				href="#sec1"
+				class="sc1"
+				>SECCIÓN 1</a
+			>
+			<a
+				href="#sec2"
+				class="sc2"
+				>SECCIÓN 2</a
+			>
+			<a
+				href="#sec3"
+				class="sc3"
+				>SECCIÓN 3</a
+			>
+			<a
+				href="#sec4"
+				class="sc4"
+				>SECCIÓN 4</a
+			>
+			<a
+				href="#sec5"
+				class="sc5"
+				>Responsive Tester</a
+			>
+			<a
+				href="#sec6"
+				class="sc6"
+				>Detección de Dispositivos <br />
+				(userAgent)</a
+			>
+			<a
+				href="#sec7"
+				class="sc7"
+				>Detección de la conexión</a
+			>
+			<a
+				href="#sec8"
+				class="sc8"
+				>Detección de la Cámara WEB</a
+			>
+			<a
+				href="#sec9"
+				class="sc9"
+				>GEOLOCALIZACIÓN</a
+			>
+			<a
+				href="#sec10"
+				class="sc10"
+				>Filtro de Búsquedas</a
+			>
+		</span>
+		<template class="template"><div class="casita"></div> </template>;
+		<a
+			class="but"
+			href="#sec1"
+		>
+			<img
+				class="flecha"
+				src="/JAVASCRIPT/EJERCICIOS/EJERCICIOS DOM MIRCHA/arrow_upward_FILL0_wght400_GRAD0_opsz48.svg"
+				alt="flecha"
+			/>
+		</a>
+
+		<button class="noche">🌙</button>
+
+		<script
+			src="/JAVASCRIPT/EJERCICIOS/EJERCICIOS DOM MIRCHA/script.js"
+			type="module"
+		></script>
+	</body>
+</html>
