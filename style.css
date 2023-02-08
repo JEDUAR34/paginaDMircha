@@ -401,8 +401,8 @@ div {
 }
 
 .im {
-	width: 220px;
-	height: 250px;
+	width: 160px;
+	height: 180px;
 }
 
 .p2 {
@@ -419,14 +419,18 @@ div {
 
 @media screen and (max-width: 800px) {
 	.car img {
-		width: 130px;
-		height: 190px;
+		width: 100px;
+		height: 100px;
+	}
+
+	.targes {
+		width: 100%;
 	}
 
 	.car {
 		width: auto;
 		height: auto;
-		padding: 20px 40px 20px 40px;
+		padding: 15px;
 		text-align: center;
 	}
 
@@ -434,4 +438,54 @@ div {
 		width: 150px;
 		height: 25px;
 	}
+}
+
+/* Sorteo Digital */
+.lengu {
+	margin-top: 50px;
+	font-size: 1.5rem;
+	border: 4px solid gray;
+	border-radius: 10px;
+	background-color: aquamarine;
+	list-style-type: none;
+	/* text-align: center; */
+	/* width: auto; */
+	/* padding: 5px 500px; */
+}
+
+.lengu li {
+	width: auto;
+	/* padding: 0px 200px; */
+}
+
+.sor {
+	margin-top: 25px;
+	margin-left: 40px;
+	background-color: lime;
+	border: 2px solid black;
+	width: auto;
+	height: 35px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.pru {
+	width: auto;
+	height: auto;
+	padding: 0px;
+	/* background-color: grey; */
+}
+
+.in {
+	width: 300px;
+	height: 100px;
+	margin: 10px auto;
+	padding: 14px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: coral;
+	font-size: 1.2rem;
+	color: red;
 }

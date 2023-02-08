@@ -49,4 +49,9 @@ geolocal();
 
 // Filtro de Búsqueda
 import { filtro } from "./filtrobusque.js";
+
 filtro();
+
+// Sorteo Digital
+import { sorteo } from "./sorteo.js";
+sorteo();
