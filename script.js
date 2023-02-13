@@ -55,3 +55,7 @@ filtro();
 // Sorteo Digital
 import { sorteo } from "./sorteo.js";
 sorteo();
+
+// Responsive Slider
+import { slider } from "./slideRespon.js";
+slider();

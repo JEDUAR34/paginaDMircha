@@ -19,6 +19,7 @@ html {
 /* HAMBURGER */
 
 h1 {
+	width: 100%;
 	position: sticky;
 	top: 0px;
 	height: 70px;
@@ -84,9 +85,10 @@ div {
 	transition: transform 1s ease;
 	background-color: var(--negr2);
 	text-align: center;
+	z-index: 10;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 100%) {
 	.esco {
 		position: fixed;
 		top: 0px;
@@ -117,7 +119,7 @@ div {
 
 .esco a {
 	display: block;
-	margin-top: 30px;
+	margin-top: 20px;
 	text-decoration: none;
 	color: var(--ama2);
 	font-size: 24px;
@@ -390,7 +392,7 @@ div {
 	flex-flow: column;
 	width: auto;
 	height: auto;
-	padding: 20px 70px 20px 70px;
+	padding: 20px 50px 20px 50px;
 	text-align: center;
 }
 
@@ -417,10 +419,21 @@ div {
 	display: none;
 }
 
-@media screen and (max-width: 800px) {
-	.car img {
-		width: 100px;
-		height: 100px;
+@media screen and (max-width: 1200px) {
+	.im {
+		width: 150px;
+		height: 150px;
+	}
+
+	.car {
+		padding: 15px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.im {
+		width: 120px;
+		height: 120px;
 	}
 
 	.targes {
@@ -440,6 +453,16 @@ div {
 	}
 }
 
+@media screen and (max-width: 610px) {
+	.car {
+		padding: 10px;
+	}
+	.im {
+		width: 100px;
+		height: 100px;
+	}
+}
+
 /* Sorteo Digital */
 .lengu {
 	margin-top: 50px;
@@ -450,17 +473,18 @@ div {
 	list-style-type: none;
 	/* text-align: center; */
 	/* width: auto; */
-	/* padding: 5px 500px; */
+	padding: 5px auto;
 }
 
 .lengu li {
 	width: auto;
-	/* padding: 0px 200px; */
+	padding: 1px auto;
 }
 
 .sor {
-	margin-top: 25px;
-	margin-left: 40px;
+	margin: 25px auto;
+	/* margin-top: 25px;
+	margin-left: 40px; */
 	background-color: lime;
 	border: 2px solid black;
 	width: auto;
@@ -488,4 +512,70 @@ div {
 	background-color: coral;
 	font-size: 1.2rem;
 	color: red;
+}
+
+@media screen and (max-width: 470px) {
+	.in {
+		width: 180px;
+	}
+}
+
+/* Responsive Slider */
+
+.slid {
+	position: relative;
+	width: 50%; /*Aqui debe ir 100% */
+	height: 50%; /*Aqui debe ir 100% */
+	margin: 30px auto;
+	padding: 0px;
+	background-color: coral;
+
+	/* overflow: hidden; */
+}
+
+/* .sec12 {
+	position: relative;
+} */
+
+.imk {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+
+.despaci {
+	transition: all 5s ease;
+}
+
+.flec {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 50%;
+	background-color: beige;
+
+	/* margin-left: 200px; */
+	/* background-color: red; */
+}
+
+/*izquierda*/
+.flec2 {
+	position: absolute;
+	top: 48%;
+	left: 0%;
+}
+
+/*derecha*/
+.flec1 {
+	position: absolute;
+	top: 48%;
+	right: 0%;
+}
+
+.flec img {
+	width: 80%;
 }
